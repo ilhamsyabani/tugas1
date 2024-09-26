@@ -1,8 +1,8 @@
+import Content from "../Components/Content";
 import Facabook from "../Components/Facebook";
 import Google from "../Components/Google";
 import Hero from "../Components/Hero";
 import News from "../Components/News";
-import Seo from "../Components/SEO";
 import Guest from "../Layouts/guest";
 
  function Home() {
@@ -11,7 +11,7 @@ import Guest from "../Layouts/guest";
         <News />
         <Google />
         <Facabook />
-        <Seo />
+        <Content />
     </>
 }
 

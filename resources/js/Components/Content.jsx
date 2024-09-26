@@ -1,6 +1,6 @@
 import { Link } from "@inertiajs/react";
 
-export default function Seo({ }) {
+export default function Content({ }) {
     return (
         <section className="flex flex-col md:flex-row gap-6 w-full xl:w-[1200px] xl:mx-auto py-12 px-6 shadow-sm rounded-sm">
             <img 
