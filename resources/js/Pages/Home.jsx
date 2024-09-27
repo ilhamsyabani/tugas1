@@ -1,9 +1,12 @@
 import Content from "../Components/Content";
 import Facabook from "../Components/Facebook";
+import Footer from "../Components/Footer";
 import Google from "../Components/Google";
 import Hero from "../Components/Hero";
+import Kontak from "../Components/Kontak";
 import News from "../Components/News";
-import Guest from "../Layouts/guest";
+import Pesanan from "../Components/Pesanan";
+import Guest from "../Layouts/Guest";
 
  function Home() {
     return <>
@@ -12,6 +15,9 @@ import Guest from "../Layouts/guest";
         <Google />
         <Facabook />
         <Content />
+        <Pesanan />
+        <Kontak />
+        <Footer />
     </>
 }
 
